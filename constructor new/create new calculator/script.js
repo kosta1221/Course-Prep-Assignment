@@ -1,16 +1,16 @@
 /* Start of solution */
 
 function Calculator() {
-	this.read() = function () {
+	this.read = function () {
 		this.a = +prompt("what is a?", 0);
 		this.b = +prompt("what is b?", 0);
 	};
 
-	this.sum() = function () {
+	this.sum = function () {
 		return this.a + this.b;
 	};
 
-	this.mul() = function () {
+	this.mul = function () {
 		return this.a * this.b;
 	};
 }

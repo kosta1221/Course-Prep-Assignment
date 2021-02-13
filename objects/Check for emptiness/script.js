@@ -5,3 +5,13 @@ function isEmpty(obj) {
 	}
 	return true;
 }
+
+alert("look in console");
+const emptyObject = {};
+const object = { firstName: "eee", lastName: "aaa" };
+console.log("emptyObject:");
+console.log(emptyObject);
+console.log("object:");
+console.log(object);
+console.log("is emptyObject empty? " + isEmpty(emptyObject));
+console.log("is object empty? " + isEmpty(object));
